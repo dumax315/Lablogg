@@ -1,0 +1,193 @@
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #F3DFA2;
+	max-width: 1300px;
+	margin:auto;	
+	
+
+}
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+body::-webkit-scrollbar {
+	width:1.5vw;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+body::-webkit-scrollbar-thumb{
+	border: 5px solid black;
+	border-width:0px calc(1.5vw / 2) 0px 0px;
+}
+@media screen and (min-width: 1000px) {
+  body::-webkit-scrollbar {
+		width:15px;
+	}
+
+	body::-webkit-scrollbar-thumb{
+		border: 5px solid black;
+		border-width:0px calc(15px/2) 0px 0px;
+	}
+}
+/* Header/Blog Title */
+.header {
+  font-size: 38px;
+  text-align: center;
+  background: rgb(145, 217, 223);
+}
+
+#headdd {
+	margin:0px;
+	padding:30px;
+}
+
+/*memu*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(127, 188, 192);
+	border-top: none;
+}
+
+li {
+  float: left;
+	font-size: 16px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(145, 217, 223);
+}
+
+#loca {
+	background-color: rgb(145, 217, 223);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 70.5%;
+	display: flex;
+  flex-direction: column-reverse;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 28%;
+	padding-left:1.5%;
+	
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%-1.5em;
+  padding: 3%;
+
+}
+
+/* Add a card effect for articles */
+.cardl {
+  background-color:#A1E887;
+  padding: 1.5em;
+  margin-top: 20px;
+	
+}
+
+.cardr {
+  background-color:#A1E887;
+  padding: 2em;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* tab */
+p {
+	text-indent: 40px;
+	line-height: 1.6;
+}
+
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
+/*
+
+
+*/
+/* faviote books*/
+.fav {
+	border-radius: 15px 0px 0px 15px;
+	border: 5px solid#231F20;
+	border-right-color: #A1E887;
+	overflow: hidden;
+  position: relative;
+	padding:3%;
+	margin-bottom: 8%;
+	background:
+		repeating-linear-gradient(0deg, 
+			#bbaf92, 
+			#867e69 2px, 
+			#e0d3af 0, 
+			#e0d3af 9px)
+}
+
+.socia {
+	width:20%;
+	margin-left:20%;
+}
+
+.center {
+	text-align:center
+}
+.button {
+  background-color: rgb(129, 129, 129); /* Green */
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.more {display:none;}
+#amore {display: none;}
+#bmore {display: none;}
+#cmore {display: none;}
